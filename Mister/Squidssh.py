@@ -15,7 +15,7 @@ PASS = ''
 BUFLEN = 4096 * 4
 TIMEOUT = 60
 DEFAULT_HOST = '127.0.0.1:22'
-RESPONSE = 'HTTP/1.1 200 <font color="red">servidor de qualidade</font>\r\n\r\n'
+RESPONSE = 'HTTP/1.1 200 <font color="blue">Servidor Brasileiro</font>\r\n\r\n'
 #RESPONSE = 'HTTP/1.1 200 Hello_World!\r\nContent-length: 0\r\n\r\nHTTP/1.1 200 Connection established\r\n\r\n'  # lint:ok
 
 
@@ -256,7 +256,7 @@ def main(host=LISTENING_ADDR, port=LISTENING_PORT):
     print "\033[34m:-------------FUNCIONANDO LEGAL:-------------\033[0;0m"
     print "\033[34m:-------------LISTENING: \033[0;0m" + LISTENING_ADDR
     print "\033[34m:-------------RODANDO NA PORTA: \033[0;0m" + str(LISTENING_PORT) + "\n"
-    print ":---@MrSilent1 (passou aq) BY: @LindoFuLL---\n"
+    print ":---{Developers} @MrSilent1---\n"
     print ":---DEIXE RODANDO EM SEGUNDO PLANO-------\n"
     print "\033[31m :---------- APERTE,  CTRL A D ------------: \033[0;0m"
     print ":---------------------------------------:\n"
